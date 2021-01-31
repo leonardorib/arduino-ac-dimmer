@@ -50,7 +50,7 @@ It is the same, but paired with a DS18B20 temperature sensor, in which the tempe
             margin-top: 20px;
         }
     }
-    }
+    
 </style>
 
 [RobotDyn AC Dimmer]: https://robotdyn.com/ac-light-dimmer-module-1-channel-3-3v-5v-logic-ac-50-60hz-220v-110v.html
