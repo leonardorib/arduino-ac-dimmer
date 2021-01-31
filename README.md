@@ -1,27 +1,5 @@
 # AC Dimmer Control with Arduino
 
-<style> 
-    #images {
-        display: flex;
-        align-items: center;
-        justify-content: center
-    }
-
-    @media (max-width: 700px) {
-        #images {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        }
-
-        img {
-            margin-top: 20px;
-        }
-    }
-    
-</style>
-
 <div id="images">
 <img src=".readme_images/arduino_uno.png" height=150 style="margin-right: 30px">
 <img src=".readme_images/ac-dimmer.png" height=90 style="margin-right: 30px">
