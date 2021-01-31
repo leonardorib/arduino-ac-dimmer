@@ -1,5 +1,27 @@
 # AC Dimmer Control with Arduino
 
+<style> 
+    #images {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    @media (max-width: 700px) {
+        #images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+
+        img {
+            margin-top: 20px;
+        }
+    }
+    
+</style>
+
 <div id="images">
 <img src=".readme_images/arduino_uno.png" height=150 style="margin-right: 30px">
 <img src=".readme_images/ac-dimmer.png" height=90 style="margin-right: 30px">
@@ -31,26 +53,5 @@ Here you can control the time to trigger the TRIAC manually by a Serial input (y
 ### ac-dimmer-with-temperature
 It is the same, but paired with a DS18B20 temperature sensor, in which the temperatures are being read also in a non-blocking way and allowing the loop to keep running. Nothing is actually being done with the temperature, just the monitoring.
 
-<style> 
-    #images {
-        display: flex;
-        align-items: center;
-        justify-content: center
-    }
-
-    @media (max-width: 700px) {
-        #images {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        }
-
-        img {
-            margin-top: 20px;
-        }
-    }
-    
-</style>
 
 [RobotDyn AC Dimmer]: https://robotdyn.com/ac-light-dimmer-module-1-channel-3-3v-5v-logic-ac-50-60hz-220v-110v.html
