@@ -8,7 +8,7 @@
 <br />
 
 ## What it does?
-Controls power in AC load through a TRIAC, perfomring AC phase cutting with help of a zero-cross detection circuit in a dimmer module. The module used was a [RobotDyn AC Dimmer] module paired with an Arduino Uno board.
+Controls power in AC load through a TRIAC, performing AC phase cutting with help of a zero-cross detection circuit in a dimmer module. The module used was a [RobotDyn AC Dimmer] module paired with an Arduino Uno board.
 
 It is also possible to use similar modules, that work in the same way, or do the circuit yourself. That are plenty of tutorials online explaining how it works.
 
